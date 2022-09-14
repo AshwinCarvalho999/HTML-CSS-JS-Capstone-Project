@@ -2,11 +2,7 @@
 
 # Air Sports Club
 
-> This project is for completing my Capstone Project requirements for first module at Microverse. It consists of two webpages for a Air Sports Clubs, which offers Thrilling Air Sports Activities.
-
-![screenshot]()
-
-It consists of two webpages Home and About with both being responsive to desktop and mobile layouts.
+> This project is for completing my Capstone Project requirements for first module at Microverse. It consists of two webpages for a Air Sports Clubs, which offers Thrilling Air Sports Activities. It consists of two webpages Home and About with both being responsive to desktop and mobile layouts.
 
 ## Built With
 
