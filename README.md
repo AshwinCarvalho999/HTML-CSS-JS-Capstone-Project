@@ -18,7 +18,7 @@
 
 - GitHub: [@AshwinCarvalho999](https://github.com/AshwinCarvalho999)
 - Twitter: [https://twitter.com](https://twitter.com)
-- LinkedIn: [Ashwin-carvalho](https://linkedin.com/in-5426701b1/)
+- LinkedIn: [Ashwin-Carvalho](https://linkedin.com/in-5426701b1/)
 
 ## 🤝 Contributions
 
