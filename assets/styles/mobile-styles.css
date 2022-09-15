@@ -594,7 +594,7 @@ header {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: url('../images/tours/turkey.jpg') 0 50%;
+  background: url('../images/event-1.png') 0 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -607,7 +607,7 @@ header {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: url('../images/tours/spain.jpg') 0 50%;
+  background: url('../images/event-2.png') 0 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
