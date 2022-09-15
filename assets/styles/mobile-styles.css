@@ -572,14 +572,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(177, 19, 19, 0.6);
+  background: rgba(177, 19, 19, 0.5);
 }
 
 .card2 {
   min-height: 250px;
   position: relative;
   width: 100%;
-  background: rgba(177, 19, 19, 0.6);
+  background: rgba(177, 19, 19, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center;

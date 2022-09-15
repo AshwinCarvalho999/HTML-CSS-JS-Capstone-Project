@@ -6,7 +6,7 @@ const staff = [
     title: 'Mexico',
     description:
       'Teresa is a passionate enthusiast with over 30 years of experience as a SkyDiver. She Likes to Skydive and also to Paraglide form different destinations around the world',
-    image: 'assets/images/guides/teresa.jpg',
+    image: 'assets/images/guides/Teresa.jpg',
     class: 'staff1',
   },
   {
@@ -46,7 +46,7 @@ const staff = [
     title: 'Morocco',
     description:
       'Sid is form Morocco. He had established a superb knowledge of SkyDiving. He was also able to dive from top of big mountains in Morocco. ',
-    image: 'assets/images/guides/sid.jpg',
+    image: 'assets/images/guides/Sid.jpg',
     class: 'staff6',
   },
 ];
