@@ -1,7 +1,7 @@
 @media (min-width: 768px) {
   :root {
     --Black: #272a31;
-    --Blue: #00fdff;
+    --Orange: #ec5242;
     --White: #d3d3d3;
     --Grey: rgb(65, 65, 72);
     --fontSizeD-h2: 2.5rem;
@@ -27,7 +27,7 @@
 
   p {
     font-size: var(--font-sizeD-p);
-    color: var(--Black);
+    color: var(--Grey);
     font-weight: normal;
   }
 
@@ -42,7 +42,7 @@
 
   .navbar-top .flex-container {
     justify-content: flex-end;
-    padding: 10px;
+    padding: 8px;
   }
 
   .navbar-top ul {
@@ -97,6 +97,13 @@
 
   #cc-campaign {
     display: flex;
+    padding: 1rem;
+    width: 10%;
+  }
+
+  #cc-campaign:hover {
+    background-color: var(--Orange);
+    color: white;
   }
 
   .navbar-button__close {
@@ -125,18 +132,23 @@
     font-size: 1rem;
   }
 
+  .navbar-main__link:hover {
+    background-color: var(--Orange);
+    color: white;
+    padding: 1rem;
+  }
+
   .menu-end {
     display: none;
   }
 
   #headline .flex-container {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
   }
 
   .headline__message {
-    max-width: 500px;
+    max-width: 550px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -153,17 +165,6 @@
     font-weight: normal;
   }
 
-  .headline__h2,
-  .headline__h1,
-  .headline__message,
-  .headline__date,
-  .headline__location {
-    background-color: rgb(0 0 0 / 0.7);
-    padding: 1%;
-    border-radius: 1rem;
-    color: var(--Blue);
-  }
-
   #features .flex-container {
     width: 70%;
     padding: 7% 0 10%;
@@ -173,7 +174,7 @@
     display: flex;
     flex-wrap: wrap;
     grid-template: 1fr / repeat(5, 1fr);
-    gap: 15px;
+    gap: 5px;
   }
 
   .features__cards {
@@ -183,8 +184,8 @@
     justify-content: center;
     justify-items: center;
     align-content: center;
-    gap: 1px;
-    padding: 1rem;
+    gap: 10px;
+    padding: 3%;
   }
 
   .features__cards p {
@@ -211,7 +212,7 @@
     width: 50px;
     margin: auto;
     margin-top: 10px;
-    border-color: var(--Blue);
+    border-color: var(--Orange);
     margin-bottom: 3%;
   }
 
@@ -258,6 +259,54 @@
     display: flex;
   }
 
+  #partners-main {
+    display: flex;
+  }
+
+  #partners-main .flex-container {
+    padding: 3% 0 3%;
+    width: 70%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #partners {
+    display: none;
+  }
+
+  #partners-main h2 {
+    color: rgb(163, 161, 161);
+    font-size: 1.8rem;
+  }
+
+  #partners-main .section__hr {
+    margin-bottom: 10px;
+  }
+
+  .partner__flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .partner__flex a {
+    color: rgb(163, 161, 161);
+    font-size: 2.3rem;
+    margin-top: 20px;
+  }
+
+  .google,
+  .slack,
+  .airbnb,
+  .soundcloud,
+  .reddit {
+    width: auto;
+    flex: 1 1 80px;
+  }
+
   #about-hero .flex-container {
     padding: 10% 0 10%;
   }
@@ -293,11 +342,10 @@
 
   .about-logo__show {
     margin-top: 3%;
-    width: 30rem;
   }
 
   .about-logo__show img {
-    width: 30%;
+    width: 50%;
   }
 
   #about-past {
@@ -344,26 +392,24 @@
   }
 
   #footer {
-    display: flex;
-    padding: 1%;
-    background-color: var(--Grey);
+    background: #272a31;
+    padding: 2%;
   }
 
   #footer .flex-container {
-    display: flex;
     width: 70%;
+    justify-content: left;
   }
 
   #footer img {
-    width: 100px;
-    margin-right: 30px;
+    margin-right: 20px;
   }
 
   #footer .flex-container p {
     font-family: var(--fontFamily-lato);
     font-weight: normal;
     color: var(--White);
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   #footer .flex-container p br {
@@ -372,7 +418,7 @@
 
   #footer-main {
     display: flex;
-    padding: 1%;
+    padding: 2%;
     background-color: var(--Grey);
   }
 
@@ -382,14 +428,13 @@
   }
 
   #footer-main img {
-    width: 100px;
-    margin-right: 30px;
+    margin-right: 20px;
   }
 
   #footer-main .flex-container p {
     font-family: var(--fontFamily-lato);
     font-weight: normal;
     color: var(--White);
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
