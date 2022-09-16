@@ -625,7 +625,6 @@ header {
 }
 
 #partners {
-  margin: 80px 0 0;
   background: var(--Grey);
   min-height: 150px;
 }
@@ -638,12 +637,13 @@ header {
 }
 
 #partners .flex-container {
-  padding: 10% 0 10%;
-  width: 90%;
+  width: 100%;
   margin: auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 #partners h2 {
@@ -683,14 +683,11 @@ header {
   color: rgb(201, 186, 186);
   font-size: 1.9rem;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .stumbleupon {
-  width: 33%;
-}
-
-.pied-piper {
   width: 33%;
 }
 

@@ -213,7 +213,6 @@
     margin: auto;
     margin-top: 10px;
     border-color: var(--Orange);
-    margin-bottom: 3%;
   }
 
   #staff {
@@ -267,13 +266,9 @@
     padding: 3% 0 3%;
     width: 70%;
     margin: auto;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-  }
-
-  #partners {
-    display: none;
   }
 
   #partners-main h2 {
@@ -288,23 +283,17 @@
   .partner__flex {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 4rem;
+    margin-right: 6rem;
+    margin-top: 1rem;
   }
 
   .partner__flex a {
     color: rgb(163, 161, 161);
     font-size: 2.3rem;
-    margin-top: 20px;
-  }
-
-  .google,
-  .slack,
-  .airbnb,
-  .soundcloud,
-  .reddit {
     width: auto;
-    flex: 1 1 80px;
   }
 
   #about-hero .flex-container {
@@ -392,13 +381,14 @@
   }
 
   #footer {
-    background: #272a31;
+    background: white;
     padding: 2%;
   }
 
   #footer .flex-container {
     width: 70%;
-    justify-content: left;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   #footer img {
@@ -408,8 +398,8 @@
   #footer .flex-container p {
     font-family: var(--fontFamily-lato);
     font-weight: normal;
-    color: var(--White);
-    font-size: 0.8rem;
+    color: var(--Black);
+    font-size: 1rem;
   }
 
   #footer .flex-container p br {
