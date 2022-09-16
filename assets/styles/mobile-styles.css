@@ -90,7 +90,7 @@ header {
   height: 100vh;
   top: -200%;
   left: 0;
-  background: rgb(48, 48, 48);
+  background: var(--Black);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -350,7 +350,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #d3d3d3;
+  border: 3px solid var(--Orange);
   font-size: var(--fontSize-h3);
   font-family: var(--fontFamily-lato);
 }
@@ -625,7 +625,7 @@ header {
 }
 
 #partners {
-  background: var(--Grey);
+  background: var(--Black);
   min-height: 150px;
 }
 
@@ -705,12 +705,12 @@ header {
 
 /* ### footer ### */
 #footer {
-  padding: 5px 0 5px;
+  padding: 10px 0 10px;
+  background: var(--Black);
 }
 
 #footer-main {
-  padding: 5px 0 5px;
-  display: none;
+  padding: 10px 0 10px;
 }
 
 #footer .flex-container {
@@ -726,10 +726,10 @@ header {
 }
 
 #footer .flex-container p {
-  font-family: var(--fontFamily-Lato);
+  font-family: var(--fontFamily-lato);
   font-weight: normal;
-  font-size: 0.5rem;
-  color: var(--Black);
+  font-size: 0.7rem;
+  color: var(--White);
 }
 
 #footer-main .flex-container {

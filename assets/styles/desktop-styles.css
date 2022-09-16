@@ -210,7 +210,6 @@
 
   .section__hr {
     width: 50px;
-    margin: auto;
     margin-top: 10px;
     border-color: var(--Orange);
   }
@@ -287,7 +286,6 @@
     flex-wrap: wrap;
     gap: 4rem;
     margin-right: 6rem;
-    margin-top: 1rem;
   }
 
   .partner__flex a {
@@ -381,7 +379,7 @@
   }
 
   #footer {
-    background: white;
+    background: var(--Black);
     padding: 2%;
   }
 
@@ -398,7 +396,7 @@
   #footer .flex-container p {
     font-family: var(--fontFamily-lato);
     font-weight: normal;
-    color: var(--Black);
+    color: var(--White);
     font-size: 1rem;
   }
 
@@ -409,12 +407,13 @@
   #footer-main {
     display: flex;
     padding: 2%;
-    background-color: var(--Grey);
+    background-color: white;
   }
 
   #footer-main .flex-container {
     width: 70%;
-    justify-content: left;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   #footer-main img {
@@ -424,7 +423,7 @@
   #footer-main .flex-container p {
     font-family: var(--fontFamily-lato);
     font-weight: normal;
-    color: var(--White);
-    font-size: 0.8rem;
+    color: var(--Black);
+    font-size: 1rem;
   }
 }
